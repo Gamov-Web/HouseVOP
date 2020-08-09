@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  font-family: $main-font;
+  color: $text-color;
+  background-color: $background-color;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title-h2 {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: $accent-font;
+  color: $accent-color;
+}
